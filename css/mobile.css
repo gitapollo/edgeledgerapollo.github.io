@@ -1,0 +1,143 @@
+#what .items {
+    display: block;
+    padding: 1rem;
+}
+
+/* Align icon to left */
+#what .items .item {
+    display: flex;
+    text-align: left;
+}
+
+/* Position icon */
+#what .items .item i {
+    margin-right: 1.3rem;
+    align-self: center;
+    margin-bottom: 0;
+}
+
+/* Smartphones */
+@media(max-width: 500px) {
+
+    /* Navbar */
+    #navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #navbar .logo {
+        margin-bottom: 0.5rem;
+        text-align: center;
+    }
+
+    #navbar ul {
+        padding: 0.5rem;
+    }
+
+    /* Showcase */
+    #showcase .showcase-content {
+        top: 50px;
+    }
+
+    /* Who */
+    #who {
+        display: block;
+    }
+
+    #who .who-img {
+        display: none;
+    }
+
+    /* Clients */
+    #clients .items img {
+       width: 80%; 
+    }
+
+    #clients .items div:last-child {
+        display: none;
+    }
+
+    /* Contact */
+    #contact {
+        display: block;
+    }
+
+    #contact #map {
+        height: 200px;
+        border-top: 4px solid #333;
+    }
+
+    /* Footer */
+    footer {
+        font-size: 0.8rem;
+    }
+}
+
+@media(max-height: 1366) {
+    #showcase .showcase-content {
+        top: 40px;
+    }
+}
+
+@media(max-height: 1024) {
+    #showcase .showcase-content {
+        top: px;
+    }
+}
+
+@media(max-height: 736px) {
+    #showcase .showcase-content {
+        top: 63px;
+    }
+}
+
+@media(max-height: 731px) {
+    #showcase .showcase-content {
+        top: 65px;
+    }
+}
+
+@media(max-height: 667px) {
+    .l-heading {
+        font-size: 2.9rem;
+    }
+
+    .lead {
+        font-size: 0.9rem;
+    }
+
+    #showcase .showcase-content {
+        top: 67px;
+    }
+}
+
+@media(max-height: 640px) {
+    .l-heading {
+        font-size: 2.9rem;
+    }
+
+    .lead {
+        font-size: 0.9rem;
+    }
+
+    #showcase .showcase-content {
+        top: 69px;
+    }
+}
+
+@media(max-height: 568px) {
+    .l-heading {
+        font-size: 3rem;
+    }
+
+    .lead {
+        font-size: 1rem;
+    }
+
+    #showcase .showcase-content {
+        top: 74px;
+    }
+}
+
+
+
